@@ -1,6 +1,6 @@
 # urahara.nvim
 
-A dark Neovim colorscheme inspired by forest undergrowth — deep blacks with earthy greens and warm creams. Built as a spiritual successor to [vampire-void](https://github.com/SouthKioto/vampire-void.nvim), sharing the same structure but swapping blood reds for moss and parchment.
+A dark Neovim colorscheme inspired by forest undergrowth — deep blacks with earthy greens and warm creams. Built as a spiritual successor to my first theme [vampire-void](https://github.com/SouthKioto/vampire-void.nvim), sharing the same structure but swapping blood reds for moss and parchment.
 
 ## Palette
 
@@ -67,8 +67,6 @@ local function hl_color(group, attr)
   return string.format("#%06x", val)
 end
 ```
-
-See `ui.lua` for the full lualine + alpha configuration.
 
 ## License
 
